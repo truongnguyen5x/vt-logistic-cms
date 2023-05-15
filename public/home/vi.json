@@ -104,7 +104,8 @@
       "contacts": [
         { "name": "Mr. Thắng", "phone": "0355.20.6666" },
         { "name": "Mr. Hải", "phone": "0933.16.9998" }
-      ]
+      ],
+      "btn": "Tra cứu"
     }
   }
 }
