@@ -30,7 +30,7 @@
     },
     {
       "is_plus": true,
-      "heading": 20.0,
+      "heading": 2000,
       "subject": "CBNV & CTV",
       "detail": "Đối tác chiến lược của nhiều công ty với thương hiệu hàng đầu"
     },
@@ -47,14 +47,16 @@
       "detail": "Đối tác chiến lược của nhiều công ty với thương hiệu hàng đầu"
     }
   ],
-  "abouts_txt": [
-    {
-      "title": "Tra cứu mạng lưới vận chuyển",
-      "image": "http://localhost:3001/search.svg"
-    },
-    {
-      "title": "Dịch vụ của chúng tôi",
-      "image": "http://localhost:3001/box.svg"
-    }
-  ]
+  "abouts_content": {
+    "tabs": [
+      {
+        "title": "Tra cứu mạng lưới vận chuyển",
+        "image": "http://localhost:3001/search.svg"
+      },
+      {
+        "title": "Dịch vụ của chúng tôi",
+        "image": "http://localhost:3001/box.svg"
+      }
+    ]
+  }
 }
