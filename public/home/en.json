@@ -1,0 +1,46 @@
+{
+  "banner": [
+    "http://localhost:3001/image/bg_home.png",
+    "http://localhost:3001/image/bg_home.png"
+  ],
+  "features": [
+    {
+      "image": "http://localhost:3001/image/map.svg",
+      "title": "63/63 Tỉnh thành\n Mạng lưới rộng khắp"
+    },
+    {
+      "image": "http://localhost:3001/image/truck.svg",
+      "title": "Dịch vụ\n đa dạng"
+    },
+    {
+      "image": "http://localhost:3001/image/ship.svg",
+      "title": "Chi phí\n tối ưu"
+    },
+    {
+      "image": "http://localhost:3001/image/crown.svg",
+      "title": "+24 năm\n Thương hiệu quốc gia"
+    }
+  ],
+  "abouts": [
+    {
+      "heading": "2500",
+      "subject": "Bưu cục",
+      "detail": "Đối tác chiến lược của nhiều công ty với thương hiệu hàng đầu"
+    },
+    {
+      "heading": "+20.000",
+      "subject": "CBNV & CTV",
+      "detail": "Đối tác chiến lược của nhiều công ty với thương hiệu hàng đầu"
+    },
+    {
+      "heading": "220",
+      "subject": "Quốc gia",
+      "detail": "Đối tác chiến lược của nhiều công ty với thương hiệu hàng đầu"
+    },
+    {
+      "heading": "220",
+      "subject": "Quốc gia",
+      "detail": "Đối tác chiến lược của nhiều công ty với thương hiệu hàng đầu"
+    }
+  ]
+}
