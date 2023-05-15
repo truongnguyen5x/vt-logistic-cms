@@ -90,7 +90,21 @@
     "service_bg": "http://localhost:3001/image/bg_service.png",
     "all_service": "Tất cả dịch vụ",
     "lookup_tab": {
-      "title": ["Express", "Fowarding", "Vận tải"]
+      "title": ["Express", "Fowarding", "Vận tải"],
+      "imgs": [
+        "http://localhost:3001/image/ship_2.png",
+        "http://localhost:3001/image/ship_2.png",
+        "http://localhost:3001/image/ship_2.png"
+      ],
+      "from": "Điểm gửi",
+      "to": "Điểm nhận",
+      "service_available": "Dịch vụ khả dụng",
+      "service_available_des": "Để biết thêm chi tiết về hành trình & Giá cước vận chuyển khách hàng vui lòng liên hệ",
+      "service_unavailable": "Dịch vụ không khả dụng",
+      "contacts": [
+        { "name": "Mr. Thắng", "phone": "0355.20.6666" },
+        { "name": "Mr. Hải", "phone": "0933.16.9998" }
+      ]
     }
   }
 }
