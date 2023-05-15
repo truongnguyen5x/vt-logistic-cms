@@ -71,7 +71,7 @@
         ]
       },
       {
-        "img": "http://localhost:3001/image/airplane.svg",
+        "img": "http://localhost:3001/image/airplane.png",
         "title": "Dịch vụ Hải quan"
       },
       {
@@ -107,5 +107,24 @@
       ],
       "btn": "Tra cứu"
     }
+  },
+  "list_partner": {
+    "title": "Đối tác chiến lược",
+    "imgs": [
+      "http://localhost:3001/image/cosco.png",
+      "http://localhost:3001/image/sitc.png",
+      "http://localhost:3001/image/evergreen.png",
+      "http://localhost:3001/image/wan_hai_line.png",
+      "http://localhost:3001/image/vna.png",
+      "http://localhost:3001/image/yang_ming.png",
+      "http://localhost:3001/image/sing_airline.png",
+      "http://localhost:3001/image/heung_a.png",
+      "http://localhost:3001/image/eva_air.png",
+      "http://localhost:3001/image/dhl.png"
+    ]
+  },
+  "news": {
+    "title": "Tin tức & Sự kiện",
+    "learn_more": "Tìm hiểu thêm"
   }
 }
