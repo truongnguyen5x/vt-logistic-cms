@@ -58,6 +58,36 @@
         "title": "Dịch vụ của\n chúng tôi",
         "img": "http://localhost:3001/image/box.svg"
       }
-    ]
+    ],
+    "service_tab": [
+      {
+        "img": "http://localhost:3001/image/truck_2.svg",
+        "title": "Dịch vụ Vận tải",
+        "subs": [
+          "Vận tải đường bộ",
+          "Vận tải đường sắt",
+          "Vận tải đường biển",
+          "Vận tải đường hàng không & AOG"
+        ]
+      },
+      {
+        "img": "http://localhost:3001/image/airplane.svg",
+        "title": "Dịch vụ Hải quan"
+      },
+      {
+        "img": "http://localhost:3001/image/warehouse.svg",
+        "title": "Dịch vụ Kho bãi"
+      },
+      {
+        "img": "http://localhost:3001/image/package.svg",
+        "title": "Đóng gói & Chia chọn"
+      },
+      {
+        "img": "http://localhost:3001/image/shipping.svg",
+        "title": "Giao hàng điểm cuối"
+      }
+    ],
+    "service_bg": "http://localhost:3001/image/bg_service.png",
+    "all_service": "Tất cả dịch vụ"
   }
 }
