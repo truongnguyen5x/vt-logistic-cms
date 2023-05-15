@@ -88,6 +88,9 @@
       }
     ],
     "service_bg": "http://localhost:3001/image/bg_service.png",
-    "all_service": "Tất cả dịch vụ"
+    "all_service": "Tất cả dịch vụ",
+    "lookup_tab": {
+      "title": ["Express", "Fowarding", "Vận tải"]
+    }
   }
 }
