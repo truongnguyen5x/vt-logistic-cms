@@ -50,12 +50,13 @@
   "abouts_content": {
     "tabs": [
       {
-        "title": "Tra cứu mạng lưới vận chuyển",
-        "image": "http://localhost:3001/search.svg"
+        "title": "Tra cứu mạng\n lưới vận chuyển",
+        "img": "http://localhost:3001/image/search.svg"
       },
+
       {
-        "title": "Dịch vụ của chúng tôi",
-        "image": "http://localhost:3001/box.svg"
+        "title": "Dịch vụ của\n chúng tôi",
+        "img": "http://localhost:3001/image/box.svg"
       }
     ]
   }
