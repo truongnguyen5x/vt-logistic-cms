@@ -23,22 +23,26 @@
   ],
   "abouts": [
     {
-      "heading": "2500",
+      "is_plus": false,
+      "heading": 2500,
       "subject": "Bưu cục",
       "detail": "Đối tác chiến lược của nhiều công ty với thương hiệu hàng đầu"
     },
     {
-      "heading": "+20.000",
+      "is_plus": true,
+      "heading": 20.0,
       "subject": "CBNV & CTV",
       "detail": "Đối tác chiến lược của nhiều công ty với thương hiệu hàng đầu"
     },
     {
-      "heading": "220",
+      "is_plus": false,
+      "heading": 200,
       "subject": "Quốc gia",
       "detail": "Đối tác chiến lược của nhiều công ty với thương hiệu hàng đầu"
     },
     {
-      "heading": "220",
+      "is_plus": false,
+      "heading": 200,
       "subject": "Quốc gia",
       "detail": "Đối tác chiến lược của nhiều công ty với thương hiệu hàng đầu"
     }
