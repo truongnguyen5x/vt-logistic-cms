@@ -1,3 +1,27 @@
 {
-  "banner_img": "http://localhost:3001/image/ship_container.png"
+  "banner_img": "http://localhost:3001/image/ship_container.png",
+  "my_service": "“Hệ sinh thái kết nối người bán, người mua, nhà cung cấp, nhà sản xuất,... xây dựng chuỗi cung cứng hoàn chỉnh và đa dạng”",
+  "overview_img": "http://localhost:3001/image/warehouse_working.png",
+  "features": [
+    {
+      "img": "http://localhost:3001/image/car.svg",
+      "title": "+ 20.000 Xe",
+      "txt": "Hệ thống xe đa dạng"
+    },
+    {
+      "img": "http://localhost:3001/image/security.svg",
+      "title": "+24 Năm",
+      "txt": "Thương hiệu quốc gia"
+    },
+    {
+      "img": "http://localhost:3001/image/house.svg",
+      "title": "+ 400.000 m2",
+      "txt": "Hạ tầng kho, bãi"
+    },
+    {
+      "img": "http://localhost:3001/image/people.svg",
+      "title": "+ 30.000",
+      "txt": "CBNV & CTV"
+    }
+  ]
 }
