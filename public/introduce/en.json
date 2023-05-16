@@ -69,17 +69,55 @@
     },
     "more": {
       "contact": {
-        "image": "http://localhost:3001/image/introduce/core_values.png",
+        "image": "http://localhost:3001/image/introduce/contact.png",
         "title": "Thông tin liên hệ",
         "content": "Công ty TNHH MTV Logistics Viettel (Viettel Logistics) là công ty thành viên trực thuộc Tổng Công ty Cổ phần Bưu chính Viettel, tiền thân là một doanh nghiệp trong quân đội, được thành lập và hoạt động hợp pháp theo quy định của pháp luật Việt Nam.",
         "link": "/contact"
       },
       "milestones": {
-        "image": "http://localhost:3001/image/introduce/core_values.png",
+        "image": "http://localhost:3001/image/introduce/milestones.png",
         "title": "Dấu mốc phát triển",
         "content": "Công ty TNHH MTV Logistics Viettel (Viettel Logistics) là công ty thành viên trực thuộc Tổng Công ty Cổ phần Bưu chính Viettel, tiền thân là một doanh nghiệp trong quân đội, được thành lập và hoạt động hợp pháp theo quy định của pháp luật Việt Nam.",
         "link": "/introduce/milestones"
       }
     }
+  },
+  "milestones": {
+    "banner": "http://localhost:3001/image/introduce/milestones/milestones_bg.png",
+    "bg_image": "http://localhost:3001/image/introduce/milestones/world_map.png",
+    "image": "http://localhost:3001/image/introduce/milestones/image.png",
+    "icon_content": "http://localhost:3001/image/introduce/milestones/calendar.svg",
+    "contents": [
+      {
+        "timeline": 2012,
+        "datetime": "02/2012",
+        "content": "Thành lập Ban Kinh doanh Quốc tế"
+      },
+      {
+        "timeline": 2013,
+        "datetime": null,
+        "content": "Cung cấp các dịch vụ chuyển phát quốc tế"
+      },
+      {
+        "timeline": 2016,
+        "datetime": "05/2016",
+        "content": "Thành lập trung tâm Logistics"
+      },
+      {
+        "timeline": 2017,
+        "datetime": "03/2017",
+        "content": "Thành lập Công ty Logistics Viettel"
+      },
+      {
+        "timeline": 2020,
+        "datetime": null,
+        "content": "Trở thành 1 trong 3 doanh nghiệp logistics lớn nhất Việt Nam"
+      },
+      {
+        "timeline": 2021,
+        "datetime": null,
+        "content": "Công ty logistics uy tín hàng đầu Việt Nam"
+      }
+    ]
   }
 }
