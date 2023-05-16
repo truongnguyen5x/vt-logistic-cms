@@ -1,0 +1,123 @@
+{
+  "introduce": {
+    "banner": "http://localhost:3001/image/introduce/banner.png",
+    "general": {
+      "image": "http://localhost:3001/image/introduce/general.png",
+      "sub_image": "http://localhost:3001/image/introduce/sub_general.png",
+      "title": "Công ty TNHH MTV Logistics Viettel",
+      "content": "Công ty TNHH MTV Logistics Viettel (Viettel Logistics) là công ty thành viên trực thuộc Tổng Công ty Cổ phần Bưu chính Viettel, tiền thân là một doanh nghiệp trong quân đội, được thành lập và hoạt động hợp pháp theo quy định của pháp luật Việt Nam.\nLà một công ty cung cấp dịch vụ uy tín hàng đầu Việt Nam, có mạng lưới rộng khắp Trong nước và Quốc tế cùng đội ngũ nhân sự hơn 20.000 CBNV & CTV, Viettel Logistics mang đến dịch vụ vận chuyển trọn gói toàn diện cho tất cả các loại hàng hóa vận tải nội địa và xuất nhập khẩu."
+    },
+    "mission": {
+      "image": "http://localhost:3001/image/introduce/mission.png",
+      "description": "Mang trong mình sứ mệnh cung cấp hạ tầng dịch vụ vận tải, kho bãi phục vụ cho thương mại và thương mại điện tử, Viettel Logistics định hướng trở thành công ty Logistics thông minh, có hạ tầng mạng lưới dùng chung lớn nhất Việt Nam vào năm 2025. Với kinh nghiêm hơn 24 năm trong ngành cùng tốc độ tăng trưởng 25-35%/năm, Viettel Logistics tự tin mang đến cho Quý khách hàng các dịch vụ.",
+      "properties": ["Chính xác", "Tối ưu", "Tin cậy"],
+      "introduce": [
+        {
+          "image": "http://localhost:3001/image/introduce/security-time.svg",
+          "content": "+24 năm kinh nghiệm"
+        },
+        {
+          "image": "http://localhost:3001/image/introduce/group.svg",
+          "content": "+20,000 phương tiện vận tải"
+        },
+        {
+          "image": "http://localhost:3001/image/introduce/people.svg",
+          "content": "+20,000 CBNV & CTV"
+        },
+        {
+          "image": "http://localhost:3001/image/introduce/routing.svg",
+          "content": "+8,500 điểm giao nhận"
+        }
+      ]
+    },
+    "core_values": {
+      "image": "http://localhost:3001/image/introduce/core_values.png",
+      "center_customer": {
+        "title": "Lấy khách hàng làm trung tâm",
+        "content": "Mỗi khách hàng là một cá thể riêng biệt cần được tôn trọng, quan tâm và lắng nghe, thấu hiểu và phục vụ một cách riêng biệt. Liên tục đổi mới, cùng với khách hàng sáng tạo ra các sản phẩm dịch vụ ngày càng hoàn hảo."
+      },
+      "kindness": {
+        "title": "Kinh doanh bằng sự tử tế",
+        "content": ["Tư duy quản trị tử tế", "Sản phẩm và dịch vụ tử tế", "Nhân viên tử tế"]
+      }
+    },
+    "reasons_choose_we": {
+      "image": "http://localhost:3001/image/introduce/map.svg",
+      "description": "Lý do để chọn chúng tôi làm đối tác vận chuyển hàng hóa của bạn",
+      "reasons": [
+        {
+          "title": "Dịch vụ đa dạng",
+          "image": "http://localhost:3001/image/introduce/box.svg",
+          "content": "Cung cấp dịch vụ vận tải hàng lẻ, hàng nguyên chuyến, các dịch vụ gia tăng cả trong và ngoài nước, linh hoạt đáp ứng mọi nhu cầu của khách hàng"
+        },
+        {
+          "title": "Chuỗi cung ứng khép kín",
+          "image": "http://localhost:3001/image/introduce/array.svg",
+          "content": "Cung cấp các gói vận chuyển hàng hóa theo yêu cầu giúp rút ngắn quy trình, hạn chế rủi ro, tiết kiệm công sức và thời gian."
+        },
+        {
+          "title": "Mạng lưới rộng khắp",
+          "image": "http://localhost:3001/image/introduce/plane.svg",
+          "content": "Một trong số ít công ty có mạng lưới vận chuyển bao phủ 63/63 tỉnh thành. Kết nối hơn 220 sân bay quốc tế, cung cấp các đường bay chuyên tuyến lợi thế Việt Nam - Trung Quốc, Nhật bản, Mỹ"
+        },
+        {
+          "title": "Chi phí tối ưu",
+          "image": "http://localhost:3001/image/introduce/money.svg",
+          "content": "Kết hợp linh hoạt các phương thức vận chuyển nhằm mang đến dịch vụ vận chuyển tốt nhất với chi phí rẻ nhất"
+        }
+      ]
+    },
+    "more": {
+      "contact": {
+        "image": "http://localhost:3001/image/introduce/contact.png",
+        "title": "Thông tin liên hệ",
+        "content": "Công ty TNHH MTV Logistics Viettel (Viettel Logistics) là công ty thành viên trực thuộc Tổng Công ty Cổ phần Bưu chính Viettel, tiền thân là một doanh nghiệp trong quân đội, được thành lập và hoạt động hợp pháp theo quy định của pháp luật Việt Nam.",
+        "link": "/contact"
+      },
+      "milestones": {
+        "image": "http://localhost:3001/image/introduce/milestones.png",
+        "title": "Dấu mốc phát triển",
+        "content": "Công ty TNHH MTV Logistics Viettel (Viettel Logistics) là công ty thành viên trực thuộc Tổng Công ty Cổ phần Bưu chính Viettel, tiền thân là một doanh nghiệp trong quân đội, được thành lập và hoạt động hợp pháp theo quy định của pháp luật Việt Nam.",
+        "link": "/introduce/milestones"
+      }
+    }
+  },
+  "milestones": {
+    "banner": "http://localhost:3001/image/introduce/milestones/milestones_bg.png",
+    "bg_image": "http://localhost:3001/image/introduce/milestones/world_map.png",
+    "image": "http://localhost:3001/image/introduce/milestones/image.png",
+    "icon_content": "http://localhost:3001/image/introduce/milestones/calendar.svg",
+    "contents": [
+      {
+        "timeline": 2012,
+        "datetime": "02/2012",
+        "content": "Thành lập Ban Kinh doanh Quốc tế"
+      },
+      {
+        "timeline": 2013,
+        "datetime": null,
+        "content": "Cung cấp các dịch vụ chuyển phát quốc tế"
+      },
+      {
+        "timeline": 2016,
+        "datetime": "05/2016",
+        "content": "Thành lập trung tâm Logistics"
+      },
+      {
+        "timeline": 2017,
+        "datetime": "03/2017",
+        "content": "Thành lập Công ty Logistics Viettel"
+      },
+      {
+        "timeline": 2020,
+        "datetime": null,
+        "content": "Trở thành 1 trong 3 doanh nghiệp logistics lớn nhất Việt Nam"
+      },
+      {
+        "timeline": 2021,
+        "datetime": null,
+        "content": "Công ty logistics uy tín hàng đầu Việt Nam"
+      }
+    ]
+  }
+}
