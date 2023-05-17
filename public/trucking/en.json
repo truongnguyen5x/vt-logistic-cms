@@ -1,0 +1,78 @@
+{
+  "description": "Hệ thống hơn 20.000 xe có khả năng vận chuyển hàng hóa đến\n 63/63 tỉnh thành và xuyên biên giới (Cross Border)",
+  "bg_img": "http://localhost:3001/image/truck_2.png",
+  "intro_img": "http://localhost:3001/image/introduce/general.png",
+  "intro_sub_img": "http://localhost:3001/image/introduce/sub_general.png",
+  "intros": [
+    {
+      "img": "http://localhost:3001/image/box_2.svg",
+      "title": "Gửi kiện",
+      "txt": "Hệ thống hơn 20.000 xe có khả năng vận chuyển hàng hóa đến 63/63 tỉnh thành và xuyên biên giới (Cross Border)"
+    },
+    {
+      "img": "http://localhost:3001/image/introduce/group.svg",
+      "title": "Gửi hàng nguyên chuyến",
+      "txt": "Hệ thống hơn 20.000 xe có khả năng vận chuyển hàng hóa đến 63/63 tỉnh thành và xuyên biên giới (Cross Border)"
+    },
+    {
+      "img": "http://localhost:3001/image/square.svg",
+      "title": "Gửi lô",
+      "txt": "Hệ thống hơn 20.000 xe có khả năng vận chuyển hàng hóa đến 63/63 tỉnh thành và xuyên biên giới (Cross Border)"
+    }
+  ],
+  "internal": [
+    {
+      "title": "Vận chuyển nội địa 1",
+      "des": "Hệ thống hơn 20.000 xe có khả năng vận chuyển hàng hóa đến 63/63 tỉnh thành và xuyên biên giới (Cross Border)"
+    },
+    {
+      "title": "Vận chuyển nội địa 2",
+      "des": "Hệ thống hơn 20.000 xe có khả năng vận chuyển hàng hóa đến 63/63 tỉnh thành và xuyên biên giới (Cross Border)"
+    },
+    {
+      "title": "Vận chuyển nội địa 3",
+      "des": "Hệ thống hơn 20.000 xe có khả năng vận chuyển hàng hóa đến 63/63 tỉnh thành và xuyên biên giới (Cross Border)"
+    },
+    {
+      "title": "Vận chuyển nội địa 4",
+      "des": "Hệ thống hơn 20.000 xe có khả năng vận chuyển hàng hóa đến 63/63 tỉnh thành và xuyên biên giới (Cross Border)"
+    }
+  ],
+  "internal_img": "http://localhost:3001/image/warehouse_working_small.png",
+  "internaltional": [
+    {
+      "title": "Vận chuyển quốc tế xuyên biên giới 1",
+      "des": "Hệ thống hơn 20.000 xe có khả năng vận chuyển hàng hóa đến 63/63 tỉnh thành và xuyên biên giới (Cross Border)"
+    },
+    {
+      "title": "Vận chuyển quốc tế xuyên biên giới 2",
+      "des": "Hệ thống hơn 20.000 xe có khả năng vận chuyển hàng hóa đến 63/63 tỉnh thành và xuyên biên giới (Cross Border)"
+    },
+    {
+      "title": "Vận chuyển quốc tế xuyên biên giới 3",
+      "des": "Hệ thống hơn 20.000 xe có khả năng vận chuyển hàng hóa đến 63/63 tỉnh thành và xuyên biên giới (Cross Border)"
+    },
+    {
+      "title": "Vận chuyển quốc tế xuyên biên giới 4",
+      "des": "Hệ thống hơn 20.000 xe có khả năng vận chuyển hàng hóa đến 63/63 tỉnh thành và xuyên biên giới (Cross Border)"
+    }
+  ],
+  "international_img": "http://localhost:3001/image/seaport.png",
+  "other_service": [
+    {
+      "txt": "Vận tải",
+      "url": "/",
+      "img": "http://localhost:3001/image/truck.png"
+    },
+    {
+      "txt": "Thông quan hàng hóa",
+      "url": "/",
+      "img": "http://localhost:3001/image/ship.png"
+    },
+    {
+      "txt": "Kho bãi",
+      "url": "/",
+      "img": "http://localhost:3001/image/train.png"
+    }
+  ]
+}
