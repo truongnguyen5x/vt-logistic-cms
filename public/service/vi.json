@@ -5,23 +5,45 @@
   "features": [
     {
       "img": "http://localhost:3001/image/car.svg",
-      "title": "+ 20.000 Xe",
+      "number": 20000,
+      "object": "Xe",
       "txt": "Hệ thống xe đa dạng"
     },
     {
       "img": "http://localhost:3001/image/security.svg",
-      "title": "+24 Năm",
+      "number": 24,
+      "object": "Năm",
       "txt": "Thương hiệu quốc gia"
     },
     {
       "img": "http://localhost:3001/image/house.svg",
-      "title": "+ 400.000 m2",
+      "number": 400000,
+      "object": "m2",
       "txt": "Hạ tầng kho, bãi"
     },
     {
       "img": "http://localhost:3001/image/people.svg",
-      "title": "+ 30.000",
+      "number": 30000,
+      "object": "",
       "txt": "CBNV & CTV"
+    }
+  ],
+  "service_transportation_des": "Là một trong số ít các doanh nghiệp Logistics sở hữu hệ thống hơn 20.000 xe (ô tô, xe tải, xe container, rơ moóc,\n sơ mi rơ moóc,...) Viettel Logistics đảm bảo sẽ mang đến cho khách hàng những dịch vụ hàng đầu.",
+  "transportation_list_service": [
+    {
+      "txt": "ĐƯỜNG BỘ",
+      "url": "/",
+      "img": "http://localhost:3001/image/truck.png"
+    },
+    {
+      "txt": "ĐƯỜNG BIỂN",
+      "url": "/",
+      "img": "http://localhost:3001/image/ship.png"
+    },
+    {
+      "txt": "ĐƯỜNG SẮT",
+      "url": "/",
+      "img": "http://localhost:3001/image/train.png"
     }
   ]
 }
