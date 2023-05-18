@@ -1,0 +1,13 @@
+{
+  "description": "Viettel Logistics đang là HỆ THỐNG DUY NHẤT tại Việt Nam có khả năng chia chọn hàng nặng với độ chính xác cao. Hệ thống này giúp chia chọn hàng hóa đến đầu ra từng quận/huyện và rút ngắn tối đa thời gian kết nối bưu phẩm.",
+  "bg_img": "http://localhost:3001/image/seaport_2.png",
+  "intro_img": "http://localhost:3001/image/introduce/general.png",
+  "intro_sub_img": "http://localhost:3001/image/introduce/sub_general.png",
+  "features": [
+    "Chia chọn hàng nặng đến 50kg.",
+    "Hệ thống này giúp tiết kiệm nhân lực đến 91%",
+    "Công suất bưu phẩm/ giờ: 42.000",
+    "Tỷ lệ sai sót: 0.0001%"
+  ],
+  "price_img": "http://localhost:3001/image/office.png"
+}
