@@ -104,7 +104,7 @@
       "from": "Điểm gửi",
       "to": "Điểm nhận",
       "service_available": "Dịch vụ khả dụng",
-      "service_available_des": "Để biết thêm chi tiết về hành trình & Giá cước vận chuyển khách hàng vui lòng liên hệ",
+      "service_available_des": "Để biết thêm chi tiết về hành trình & Giá cước vận chuyển\n khách hàng vui lòng liên hệ",
       "service_unavailable": "Dịch vụ không khả dụng",
       "contacts": [
         { "name": "Mr. Thắng", "phone": "0355.20.6666" },
