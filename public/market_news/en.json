@@ -4,7 +4,7 @@
     "count": 10,
     "items": [
       {
-        "slug": "market-news/test",
+        "slug": "test",
         "created_at": "02/08/2023",
         "category": "market_news",
         "img": "http://localhost:3001/image/news/image.png",
@@ -12,7 +12,7 @@
         "description": "Năm mới du xuân - Gửi lộc về nhà - Đồng giá 30k cước vận chuyển. Trong những ngày đầu năm mới, Viettel Post đã có mặt tại các địa điểm..."
       },
       {
-        "slug": "market-news/test",
+        "slug": "test",
         "created_at": "03/28/2023",
         "category": "market_news",
         "img": "http://localhost:3001/image/news/image.png",
@@ -20,7 +20,7 @@
         "description": "Năm mới du xuân - Gửi lộc về nhà - Đồng giá 30k cước vận chuyển. Trong những ngày đầu năm mới, Viettel Post đã có mặt tại các địa điểm..."
       },
       {
-        "slug": "market-news/test",
+        "slug": "test",
         "created_at": "03/28/2023",
         "category": "market_news",
         "img": "http://localhost:3001/image/news/image.png",
@@ -28,7 +28,7 @@
         "description": "Năm mới du xuân - Gửi lộc về nhà - Đồng giá 30k cước vận chuyển. Trong những ngày đầu năm mới, Viettel Post đã có mặt tại các địa điểm..."
       },
       {
-        "slug": "market-news/test",
+        "slug": "test",
         "created_at": "03/28/2023",
         "category": "market_news",
         "img": "http://localhost:3001/image/news/image.png",
@@ -36,7 +36,7 @@
         "description": "Năm mới du xuân - Gửi lộc về nhà - Đồng giá 30k cước vận chuyển. Trong những ngày đầu năm mới, Viettel Post đã có mặt tại các địa điểm..."
       },
       {
-        "slug": "market-news/test",
+        "slug": "test",
         "created_at": "03/28/2023",
         "category": "market_news",
         "img": "http://localhost:3001/image/news/image.png",
@@ -44,7 +44,7 @@
         "description": "Năm mới du xuân - Gửi lộc về nhà - Đồng giá 30k cước vận chuyển. Trong những ngày đầu năm mới, Viettel Post đã có mặt tại các địa điểm..."
       },
       {
-        "slug": "market-news/test",
+        "slug": "test",
         "created_at": "03/28/2023",
         "category": "market_news",
         "img": "http://localhost:3001/image/news/image.png",
