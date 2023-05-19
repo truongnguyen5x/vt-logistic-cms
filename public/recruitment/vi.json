@@ -5,7 +5,32 @@
     "items": [
       {
         "slug": "test",
+        "created_at": "03/10/2023",
+        "category": "recruitment",
+        "img": "http://localhost:3001/image/news/image.png",
+        "title": "Viettel Post giao hàng đồng giá 30k tại 3 địa điểm du lịch tâm linh nổi tiếng",
+        "description": "Năm mới du xuân - Gửi lộc về nhà - Đồng giá 30k cước vận chuyển. Trong những ngày đầu năm mới, Viettel Post đã có mặt tại các địa điểm..."
+      },
+      {
+        "slug": "test",
         "created_at": "03/08/2023",
+        "category": "recruitment",
+        "img": "http://localhost:3001/image/news/image.png",
+        "title": "Viettel Post giao hàng đồng giá 30k tại 3 địa điểm du lịch tâm linh nổi tiếng",
+        "description": "Năm mới du xuân - Gửi lộc về nhà - Đồng giá 30k cước vận chuyển. Trong những ngày đầu năm mới, Viettel Post đã có mặt tại các địa điểm..."
+      },
+      {
+        "slug": "test",
+        "created_at": "03/01/2023",
+        "category": "recruitment",
+        "img": "http://localhost:3001/image/news/image.png",
+        "title": "Viettel Post giao hàng đồng giá 30k tại 3 địa điểm du lịch tâm linh nổi tiếng",
+        "description": "Năm mới du xuân - Gửi lộc về nhà - Đồng giá 30k cước vận chuyển. Trong những ngày đầu năm mới, Viettel Post đã có mặt tại các địa điểm..."
+      },
+      {
+        "slug": "test",
+        "created_at": "02/28/2023",
+        "category": "recruitment",
         "img": "http://localhost:3001/image/news/image.png",
         "title": "Viettel Post giao hàng đồng giá 30k tại 3 địa điểm du lịch tâm linh nổi tiếng",
         "description": "Năm mới du xuân - Gửi lộc về nhà - Đồng giá 30k cước vận chuyển. Trong những ngày đầu năm mới, Viettel Post đã có mặt tại các địa điểm..."
@@ -13,6 +38,7 @@
       {
         "slug": "test",
         "created_at": "03/28/2023",
+        "category": "recruitment",
         "img": "http://localhost:3001/image/news/image.png",
         "title": "Viettel Post giao hàng đồng giá 30k tại 3 địa điểm du lịch tâm linh nổi tiếng",
         "description": "Năm mới du xuân - Gửi lộc về nhà - Đồng giá 30k cước vận chuyển. Trong những ngày đầu năm mới, Viettel Post đã có mặt tại các địa điểm..."
@@ -20,27 +46,7 @@
       {
         "slug": "test",
         "created_at": "03/28/2023",
-        "img": "http://localhost:3001/image/news/image.png",
-        "title": "Viettel Post giao hàng đồng giá 30k tại 3 địa điểm du lịch tâm linh nổi tiếng",
-        "description": "Năm mới du xuân - Gửi lộc về nhà - Đồng giá 30k cước vận chuyển. Trong những ngày đầu năm mới, Viettel Post đã có mặt tại các địa điểm..."
-      },
-      {
-        "slug": "test",
-        "created_at": "03/28/2023",
-        "img": "http://localhost:3001/image/news/image.png",
-        "title": "Viettel Post giao hàng đồng giá 30k tại 3 địa điểm du lịch tâm linh nổi tiếng",
-        "description": "Năm mới du xuân - Gửi lộc về nhà - Đồng giá 30k cước vận chuyển. Trong những ngày đầu năm mới, Viettel Post đã có mặt tại các địa điểm..."
-      },
-      {
-        "slug": "test",
-        "created_at": "03/28/2023",
-        "img": "http://localhost:3001/image/news/image.png",
-        "title": "Viettel Post giao hàng đồng giá 30k tại 3 địa điểm du lịch tâm linh nổi tiếng",
-        "description": "Năm mới du xuân - Gửi lộc về nhà - Đồng giá 30k cước vận chuyển. Trong những ngày đầu năm mới, Viettel Post đã có mặt tại các địa điểm..."
-      },
-      {
-        "slug": "test",
-        "created_at": "03/28/2023",
+        "category": "recruitment",
         "img": "http://localhost:3001/image/news/image.png",
         "title": "Viettel Post giao hàng đồng giá 30k tại 3 địa điểm du lịch tâm linh nổi tiếng",
         "description": "Năm mới du xuân - Gửi lộc về nhà - Đồng giá 30k cước vận chuyển. Trong những ngày đầu năm mới, Viettel Post đã có mặt tại các địa điểm..."

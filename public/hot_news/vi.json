@@ -2,6 +2,7 @@
   "hot_news": [
     {
       "slug": "test",
+      "category": "internal_news",
       "created_at": "03/08/2023",
       "img": "http://localhost:3001/image/news/image.png",
       "title": "Viettel Post giao hàng đồng giá 30k tại 3 địa điểm du lịch tâm linh nổi tiếng",
@@ -9,6 +10,7 @@
     },
     {
       "slug": "test",
+      "category": "internal_news",
       "created_at": "03/29/2023",
       "img": "http://localhost:3001/image/news/image.png",
       "title": "Viettel Post giao hàng đồng giá 30k tại 3 địa điểm du lịch tâm linh nổi tiếng",
@@ -16,6 +18,7 @@
     },
     {
       "slug": "test",
+      "category": "internal_news",
       "created_at": "03/31/2023",
       "img": "http://localhost:3001/image/news/image.png",
       "title": "Viettel Post giao hàng đồng giá 30k tại 3 địa điểm du lịch tâm linh nổi tiếng",
@@ -23,6 +26,7 @@
     },
     {
       "slug": "test",
+      "category": "internal_news",
       "created_at": "03/15/2023",
       "img": "http://localhost:3001/image/news/image.png",
       "title": "Viettel Post giao hàng đồng giá 30k tại 3 địa điểm du lịch tâm linh nổi tiếng",
@@ -30,6 +34,7 @@
     },
     {
       "slug": "test",
+      "category": "internal_news",
       "created_at": "03/28/2023",
       "img": "http://localhost:3001/image/news/image.png",
       "title": "Viettel Post giao hàng đồng giá 30k tại 3 địa điểm du lịch tâm linh nổi tiếng",
@@ -37,6 +42,7 @@
     },
     {
       "slug": "test",
+      "category": "internal_news",
       "created_at": "03/28/2023",
       "img": "http://localhost:3001/image/news/image.png",
       "title": "Viettel Post giao hàng đồng giá 30k tại 3 địa điểm du lịch tâm linh nổi tiếng",
