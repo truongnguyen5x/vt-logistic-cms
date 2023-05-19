@@ -1,7 +1,7 @@
 {
   "banner": [
     "http://localhost:3001/image/bg_home.png",
-    "http://localhost:3001/image/bg_home.png",
+    "http://localhost:3001/image/ship_container.png",
     "http://localhost:3001/image/seaport_2.png"
   ],
   "features": [
