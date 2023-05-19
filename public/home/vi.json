@@ -1,7 +1,8 @@
 {
   "banner": [
     "http://localhost:3001/image/bg_home.png",
-    "http://localhost:3001/image/bg_home.png"
+    "http://localhost:3001/image/bg_home.png",
+    "http://localhost:3001/image/seaport_2.png"
   ],
   "features": [
     {
@@ -42,8 +43,8 @@
     },
     {
       "is_plus": false,
-      "heading": 200,
-      "subject": "Quốc gia",
+      "heading": 8500,
+      "subject": "Điểm giao nhận",
       "detail": "Đối tác chiến lược của nhiều công ty với thương hiệu hàng đầu"
     }
   ],
