@@ -1,7 +1,8 @@
 {
   "banner": [
     "http://localhost:3001/image/bg_home.png",
-    "http://localhost:3001/image/bg_home.png"
+    "http://localhost:3001/image/ship_container.png",
+    "http://localhost:3001/image/seaport_2.png"
   ],
   "features": [
     {
@@ -42,8 +43,8 @@
     },
     {
       "is_plus": false,
-      "heading": 200,
-      "subject": "Quốc gia",
+      "heading": 8500,
+      "subject": "Điểm giao nhận",
       "detail": "Đối tác chiến lược của nhiều công ty với thương hiệu hàng đầu"
     }
   ],
@@ -104,7 +105,7 @@
       "from": "Điểm gửi",
       "to": "Điểm nhận",
       "service_available": "Dịch vụ khả dụng",
-      "service_available_des": "Để biết thêm chi tiết về hành trình & Giá cước vận chuyển khách hàng vui lòng liên hệ",
+      "service_available_des": "Để biết thêm chi tiết về hành trình & Giá cước vận chuyển\n khách hàng vui lòng liên hệ",
       "service_unavailable": "Dịch vụ không khả dụng",
       "contacts": [
         { "name": "Mr. Thắng", "phone": "0355.20.6666" },

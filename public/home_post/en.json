@@ -1,34 +1,39 @@
 [
   {
-    "slug": "test",
+    "slug": "thu-tuc-hai-quan",
+    "type": "internal",
     "title": "Thủ tục hải quan",
     "img": "http://localhost:3001/image/post_1.png",
     "created_at": 1684171180662,
     "description": "Various models of houses, apartments, land that we offer for your dream home. Various models of houses, apartments, land that we offer for your dream home. Various models of houses, apartments, land that we offer for your dream home..."
   },
   {
-    "slug": "test",
+    "slug": "thu-tuc-hai-quan",
+    "type": "internal",
     "title": "Vận tải đường bộ",
     "img": "http://localhost:3001/image/post_2.png",
     "created_at": 1684171180662,
     "description": "Various models of houses, apartments, land that we offer for your dream home. Various models of houses, apartments, land that we offer for your dream home. Various models of houses, apartments, land that we offer for your dream home..."
   },
   {
-    "slug": "test",
+    "slug": "thu-tuc-hai-quan",
+    "type": "internal",
     "title": "Vận tải đường sắt",
     "img": "http://localhost:3001/image/post_3.png",
     "created_at": 1684171180662,
     "description": "Various models of houses, apartments, land that we offer for your dream home. Various models of houses, apartments, land that we offer for your dream home. Various models of houses, apartments, land that we offer for your dream home..."
   },
   {
-    "slug": "test",
+    "slug": "thu-tuc-hai-quan",
+    "type": "internal",
     "title": "Kho bãi & lưu trữ hàng hoá",
     "img": "http://localhost:3001/image/post_4.png",
     "created_at": 1684171180662,
     "description": "Various models of houses, apartments, land that we offer for your dream home. Various models of houses, apartments, land that we offer for your dream home. Various models of houses, apartments, land that we offer for your dream home..."
   },
   {
-    "slug": "test",
+    "slug": "thu-tuc-hai-quan",
+    "type": "internal",
     "title": "Đóng gói & chia chọn hàng hoá",
     "img": "http://localhost:3001/image/post_5.png",
     "created_at": 1684171180662,
