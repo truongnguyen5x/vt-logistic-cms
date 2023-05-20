@@ -32,17 +32,17 @@
   "transportation_list_service": [
     {
       "txt": "ĐƯỜNG BỘ",
-      "url": "/",
+      "url": "/service/trucking",
       "img": "http://localhost:3001/image/truck.png"
     },
     {
       "txt": "ĐƯỜNG BIỂN",
-      "url": "/",
+      "url": "/service/sea-transport",
       "img": "http://localhost:3001/image/ship.png"
     },
     {
       "txt": "ĐƯỜNG SẮT",
-      "url": "/",
+      "url": "/service/rail-transportation",
       "img": "http://localhost:3001/image/train.png"
     }
   ]

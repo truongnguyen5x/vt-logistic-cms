@@ -71,7 +71,7 @@
     },
     {
       "txt": "Kho bãi",
-      "url": "/",
+      "url": "/service/warehouse",
       "img": "http://localhost:3001/image/train.png"
     }
   ]
