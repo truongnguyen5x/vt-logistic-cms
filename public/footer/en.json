@@ -5,11 +5,13 @@
       "urls": [
         {
           "img": "http://localhost:3001/image/sms_tracking.svg",
-          "txt": "cskh@viettellogistics"
+          "txt": "cskh@viettellogistics.com.vn",
+          "href": "mailto: cskh@viettellogistics.com.vn"
         },
         {
           "img": "http://localhost:3001/image/call.svg",
-          "txt": "1900 8095"
+          "txt": "1900 8095",
+          "href": "tel:19008095"
         },
         {
           "img": "http://localhost:3001/image/location.svg",
@@ -22,11 +24,13 @@
       "urls": [
         {
           "img": "http://localhost:3001/image/call.svg",
-          "txt": "098 927 8888"
+          "txt": "098 927 8888",
+          "href": "tel:0989278888"
         },
         {
           "img": "http://localhost:3001/image/sms_tracking.svg",
-          "txt": "Thanhnn22@viettelpost.com.vn"
+          "txt": "Thanhnn22@viettelpost.com.vn",
+          "href": "mailto: Thanhnn22@viettelpost.com.vn"
         }
       ]
     },
