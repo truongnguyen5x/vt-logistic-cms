@@ -1,6 +1,6 @@
 {
   "news": {
-    "banner": "http://localhost:3001/image/news/banner.png",
+    "banner": "http://localhost:3001/image/recruitment.png",
     "count": 10,
     "items": [
       {
