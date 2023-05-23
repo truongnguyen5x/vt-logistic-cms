@@ -70,37 +70,41 @@
           "Vận tải đường sắt",
           "Vận tải đường biển",
           "Vận tải đường hàng không & AOG"
-        ]
+        ],
+        "bg_img": "http://localhost:3001/image/bg_service.png"
       },
       {
         "img": "http://localhost:3001/image/airplane.png",
         "title": "Dịch vụ Hải quan",
-        "url": "/service/customs"
+        "url": "/service/customs",
+        "bg_img": "http://localhost:3001/image/bg_service.png"
       },
       {
         "img": "http://localhost:3001/image/warehouse.svg",
         "title": "Dịch vụ Kho bãi",
-        "url": "/service/warehouse"
+        "url": "/service/warehouse",
+        "bg_img": "http://localhost:3001/image/bg_service.png"
       },
       {
         "img": "http://localhost:3001/image/package.svg",
         "title": "Đóng gói & Chia chọn",
-        "url": "/service/packing"
+        "url": "/service/packing",
+        "bg_img": "http://localhost:3001/image/bg_service.png"
       },
       {
         "img": "http://localhost:3001/image/shipping.svg",
         "title": "Giao hàng điểm cuối",
-        "url": "/service/endpoint_delivery"
+        "url": "/service/endpoint_delivery",
+        "bg_img": "http://localhost:3001/image/bg_service.png"
       }
     ],
-    "service_bg": "http://localhost:3001/image/bg_service.png",
     "all_service": "Tất cả dịch vụ",
     "lookup_tab": {
       "title": ["Express", "Fowarding", "Vận tải"],
       "imgs": [
-        "http://localhost:3001/image/ship_2.png",
-        "http://localhost:3001/image/ship_2.png",
-        "http://localhost:3001/image/ship_2.png"
+        "http://localhost:3001/image/seaport_3.png",
+        "http://localhost:3001/image/seaport_3.png",
+        "http://localhost:3001/image/seaport_3.png"
       ],
       "from": "Điểm gửi",
       "to": "Điểm nhận",
