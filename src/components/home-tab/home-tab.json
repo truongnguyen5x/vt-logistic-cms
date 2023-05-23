@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_tab_home_tabs",
+  "info": {
+    "displayName": "Home Tab"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "richtext"
+    }
+  }
+}

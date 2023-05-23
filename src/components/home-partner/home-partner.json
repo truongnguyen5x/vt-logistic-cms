@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_partner_home_partners",
+  "info": {
+    "displayName": "Home Partner"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
