@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_introduce_reasons_choose_wes",
+  "info": {
+    "displayName": "Reasons choose we"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "reasons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "trucking.introduce-features"
+    }
+  }
+}

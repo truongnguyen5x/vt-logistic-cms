@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_footer_info_footer_infos",
+  "info": {
+    "displayName": "Info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

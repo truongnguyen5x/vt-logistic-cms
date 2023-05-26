@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_trucking_introduce_features",
+  "info": {
+    "displayName": "Introduce Features"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

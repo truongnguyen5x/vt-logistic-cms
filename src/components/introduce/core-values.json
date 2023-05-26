@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_introduce_core_values",
+  "info": {
+    "displayName": "Core Values"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "center_customer_title": {
+      "type": "string"
+    },
+    "center_customer_content": {
+      "type": "text"
+    },
+    "kindness_title": {
+      "type": "string"
+    },
+    "kindness_content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.advantage"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_service_contact_service_contacts",
+  "info": {
+    "displayName": "Service Contact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

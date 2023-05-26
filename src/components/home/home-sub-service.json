@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_sub_service_home_sub_services",
+  "info": {
+    "displayName": "Sub-Service",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

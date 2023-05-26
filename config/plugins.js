@@ -1,10 +1,10 @@
 export default ({ env }) => ({
 	graphql: {
 		config: {
-			playgroundAlways: false
+			playgroundAlways: true
 		}
 	},
-	seo: {
-		enabled: true,
-	},
+	 seo: {
+	    enabled: true,
+  	},
 });

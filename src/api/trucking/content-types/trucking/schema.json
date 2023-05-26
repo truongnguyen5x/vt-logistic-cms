@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "homes",
+  "collectionName": "truckings",
   "info": {
-    "singularName": "home",
-    "pluralName": "homes",
-    "displayName": "Home",
+    "singularName": "trucking",
+    "pluralName": "truckings",
+    "displayName": "Trucking",
     "description": ""
   },
   "options": {
@@ -16,49 +16,9 @@
     }
   },
   "attributes": {
-    "abouts": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "home.about"
-    },
-    "Code": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "enumeration",
-      "enum": [
-        "contact",
-        "country",
-        "customs",
-        "endpoint_delivery",
-        "footer",
-        "home",
-        "home_post",
-        "hot_news",
-        "image",
-        "internal news",
-        "introduce",
-        "market_news",
-        "packing",
-        "post_detail",
-        "province",
-        "recruitment",
-        "service",
-        "specialized_news",
-        "trucking",
-        "warehouse"
-      ]
-    },
-    "banners": {
+    "banner": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",
@@ -68,11 +28,83 @@
       ],
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       }
     },
-    "features": {
+    "description": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "intro_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "sub_intro_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "internal_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "international_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "intro_features": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -80,9 +112,9 @@
           "localized": true
         }
       },
-      "component": "home.feature"
+      "component": "trucking.introduce-features"
     },
-    "home_tabs": {
+    "internal_features": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -90,9 +122,9 @@
           "localized": true
         }
       },
-      "component": "home.home-tab"
+      "component": "trucking.feature"
     },
-    "services": {
+    "international_features": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -100,9 +132,9 @@
           "localized": true
         }
       },
-      "component": "home.home-service"
+      "component": "trucking.feature"
     },
-    "lookups": {
+    "other": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -110,37 +142,7 @@
           "localized": true
         }
       },
-      "component": "home.home-lookup"
-    },
-    "contacts": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "home.service-contact"
-    },
-    "partners": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "home.home-partner"
-    },
-    "SEO": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "shared.seo"
+      "component": "trucking.other-service"
     }
   }
 }

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_about_abouts",
+  "info": {
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "is_plus": {
+      "type": "boolean",
+      "default": false
+    },
+    "heading": {
+      "type": "integer"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "detail": {
+      "type": "string"
+    }
+  }
+}

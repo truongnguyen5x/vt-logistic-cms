@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_custom_procedures",
+  "info": {
+    "displayName": "Procedure"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "is_active": {
+      "type": "boolean"
+    }
+  }
+}

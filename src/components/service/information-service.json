@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_service_information_services",
+  "info": {
+    "displayName": "Information Service"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "info_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "info_sub_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "advantage": {
+      "displayName": "Advantage",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.advantage"
+    }
+  }
+}

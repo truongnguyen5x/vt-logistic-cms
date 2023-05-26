@@ -13,9 +13,6 @@
   "pluginOptions": {
     "i18n": {
       "localized": true
-    },
-    "versions": {
-      "versioned": true
     }
   },
   "attributes": {
@@ -45,8 +42,10 @@
       },
       "type": "enumeration",
       "enum": [
-        "internal-news",
-        "market-news"
+        "internal_news",
+        "market_news",
+        "specialized_news",
+        "recruitment"
       ],
       "required": true
     },
@@ -77,6 +76,41 @@
       "relation": "oneToMany",
       "target": "api::news.news",
       "mappedBy": "relevants"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        },
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    },
+    "is_hot": {
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        },
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean"
+    },
+    "slug": {
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        },
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

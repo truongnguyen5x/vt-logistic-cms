@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_common_group_image_contents",
+  "info": {
+    "displayName": "Group Image Content"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
