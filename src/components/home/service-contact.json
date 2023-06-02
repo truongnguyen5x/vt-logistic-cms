@@ -11,6 +11,9 @@
     },
     "phone": {
       "type": "string"
+    },
+    "phone_displayed": {
+      "type": "string"
     }
   }
 }

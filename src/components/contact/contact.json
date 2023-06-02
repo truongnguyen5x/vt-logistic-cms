@@ -32,6 +32,9 @@
     "hotline": {
       "type": "string",
       "regex": "^[0-9]*$"
+    },
+    "formatted_hotline": {
+      "type": "string"
     }
   }
 }

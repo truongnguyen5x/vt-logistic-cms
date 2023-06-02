@@ -1,19 +1,21 @@
 {
   "collectionName": "components_introduce_missions",
   "info": {
-    "displayName": "Mission"
+    "displayName": "Mission",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "description": {
       "type": "text"

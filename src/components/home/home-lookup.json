@@ -19,6 +19,11 @@
         "videos",
         "audios"
       ]
+    },
+    "contacts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.service-contact"
     }
   }
 }
