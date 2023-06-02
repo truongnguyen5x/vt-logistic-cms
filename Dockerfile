@@ -1,3 +1,4 @@
+####################################################### Build Stage ###############################################
 FROM node:16-alpine as build
 # Installing libvips-dev for sharp Compatibility
 RUN apk update && apk add --no-cache build-base gcc autoconf automake zlib-dev libpng-dev vips-dev > /dev/null 2>&1
@@ -11,6 +12,7 @@ WORKDIR /opt/app
 COPY ./ .
 RUN yarn build
 
+####################################################### Run Stage #################################################
 FROM node:16-alpine
 RUN apk add --no-cache vips-dev
 ARG NODE_ENV=production
