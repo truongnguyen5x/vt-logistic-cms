@@ -6,8 +6,10 @@ metadata:
 data:
   SERVER_URL: https://cms.grandsways.com
   PUBLIC_URL: https://cms.grandsways.com
-  DATABASE_HOST: 192.168.10.15
+  DATABASE_HOST: 100.100.0.15
   DATABASE_PORT: 3306
   DATABASE_NAME: vtl_cms
   DATABASE_USERNAME: vtl_cms
- 
+  ENDPOINT: http://s3user10106.public.cloudstorage.com.vn
+  AWS_REGION: ap-southeast-1
+  AWS_BUCKET: s3user10106

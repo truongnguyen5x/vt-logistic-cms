@@ -14,7 +14,7 @@ spec:
           service:
             name: dws
             port: 
-              number: 8600
+              number: 9100
         path: /
         pathType: Prefix
   tls:

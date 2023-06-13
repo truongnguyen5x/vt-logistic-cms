@@ -42,4 +42,4 @@ spec:
               cpu: 500m
               memory: 512Mi
       imagePullSecrets:
-        - name: registry
+        - name: wms-registry
