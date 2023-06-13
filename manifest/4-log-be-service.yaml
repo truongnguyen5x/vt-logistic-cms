@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: log-be
+  name: log-be
+  namespace: dev-log
+spec:
+  internalTrafficPolicy: Cluster
+  ports:
+  - name: log-be
+    port: 9100
+    protocol: TCP
+    targetPort: 9100
+  selector:
+    app: log-be
+  sessionAffinity: None
+  type: ClusterIP

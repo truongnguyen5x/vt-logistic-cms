@@ -1,0 +1,23 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  name: dws-ingress
+  namespace: wms
+spec:
+  rules:
+  - host: dev.viettellogistics.com.vn
+    http:
+      paths:
+      - backend:
+          service:
+            name: dws
+            port: 
+              number: 8600
+        path: /
+        pathType: Prefix
+  tls:
+  - hosts:
+    - dev.viettellogistics.com.vn
+    secretName: viettellogistics

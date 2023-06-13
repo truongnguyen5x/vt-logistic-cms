@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: log-be
+  name: log-be
+  namespace: dev-log
+spec:
+  revisionHistoryLimit: 11
+  replicas: 1
+  selector:
+    matchLabels:
+      app: log-be
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: log-be
+    spec:
+      containers:
+        - envFrom:
+          - secretRef:
+             name: log-be-secret
+          - configMapRef:
+             name: log-be-configmap
+          image: registry.viettelpost.vn/wms/log-be:test-2_fffa52ca
+          imagePullPolicy: IfNotPresent
+          name: log-be
+          ports:
+            - containerPort: 9100
+              name: log-be
+              protocol: TCP
+          resources:
+            limits:
+              cpu: "2"
+              memory: 2Gi
+            requests:
+              cpu: 500m
+              memory: 512Mi
+      imagePullSecrets:
+        - name: registry
