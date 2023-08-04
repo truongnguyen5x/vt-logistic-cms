@@ -45,6 +45,14 @@
           "localized": true
         }
       }
+    },
+    "url_bo_cong_thuong": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

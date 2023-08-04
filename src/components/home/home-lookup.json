@@ -7,23 +7,22 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "background": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "contacts": {
       "type": "component",
       "repeatable": true,
-      "component": "home.service-contact"
+      "component": "home.service-contact",
+      "required": true
     }
   }
 }

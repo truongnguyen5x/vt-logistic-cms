@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sea_services",
+  "info": {
+    "displayName": "Service",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "price_table": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.price-table"
+    },
+    "properties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rail.service"
+    }
+  }
+}

@@ -28,7 +28,8 @@
     "introduce": {
       "type": "component",
       "repeatable": true,
-      "component": "home.feature"
+      "component": "introduce.feature",
+      "required": true
     }
   }
 }

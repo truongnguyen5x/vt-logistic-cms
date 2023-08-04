@@ -4,7 +4,8 @@
   "info": {
     "singularName": "warehouse",
     "pluralName": "warehouses",
-    "displayName": "Warehouse"
+    "displayName": "Warehouse",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,14 +17,12 @@
   },
   "attributes": {
     "banner": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -41,19 +40,38 @@
       "component": "service.information-service"
     },
     "bg_price": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    },
+    "price_table": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "common.price-table",
+      "required": true
     }
   }
 }

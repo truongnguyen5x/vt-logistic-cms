@@ -8,7 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {
     "i18n": {
@@ -24,53 +24,8 @@
           "localized": true
         }
       },
-      "component": "home.about"
-    },
-    "Code": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "enumeration",
-      "enum": [
-        "contact",
-        "country",
-        "customs",
-        "endpoint_delivery",
-        "footer",
-        "home",
-        "home_post",
-        "hot_news",
-        "image",
-        "internal news",
-        "introduce",
-        "market_news",
-        "packing",
-        "post_detail",
-        "province",
-        "recruitment",
-        "service",
-        "specialized_news",
-        "trucking",
-        "warehouse"
-      ]
-    },
-    "banners": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
+      "component": "home.about",
+      "required": true
     },
     "features": {
       "type": "component",
@@ -80,7 +35,8 @@
           "localized": true
         }
       },
-      "component": "home.feature"
+      "component": "home.feature",
+      "required": true
     },
     "home_tabs": {
       "type": "component",
@@ -90,7 +46,8 @@
           "localized": true
         }
       },
-      "component": "home.home-tab"
+      "component": "home.home-tab",
+      "required": true
     },
     "services": {
       "type": "component",
@@ -100,7 +57,8 @@
           "localized": true
         }
       },
-      "component": "home.home-service"
+      "component": "home.home-service",
+      "required": true
     },
     "lookups": {
       "type": "component",
@@ -110,17 +68,8 @@
           "localized": true
         }
       },
-      "component": "home.home-lookup"
-    },
-    "contacts": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "home.service-contact"
+      "component": "home.home-lookup",
+      "required": true
     },
     "partners": {
       "type": "component",
@@ -130,7 +79,8 @@
           "localized": true
         }
       },
-      "component": "home.home-partner"
+      "component": "home.home-partner",
+      "required": true
     },
     "SEO": {
       "type": "component",
@@ -141,6 +91,16 @@
         }
       },
       "component": "shared.seo"
+    },
+    "banners": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.banner"
     }
   }
 }

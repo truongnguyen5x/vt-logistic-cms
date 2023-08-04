@@ -9,19 +9,14 @@
     "icon": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "title": {
-      "type": "text"
-    },
-    "number": {
-      "type": "integer"
+      "type": "text",
+      "required": true
     }
   }
 }

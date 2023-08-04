@@ -7,13 +7,16 @@
   "options": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "phone": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "phone_displayed": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
