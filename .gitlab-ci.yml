@@ -32,7 +32,7 @@ stages:
 Sonar:
   stage: Sonar
   variables:
-      GIT_STRATEGY: none
+      GIT_STRATEGY: clone
   allow_failure: true
   tags:
     - dev-wms-shell
