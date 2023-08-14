@@ -11,13 +11,15 @@ WORKDIR /opt/app
 COPY ./ .
 RUN yarn build
 
-FROM node:16-alpine
-RUN apk add --no-cache vips-dev
-ARG NODE_ENV=production
-ENV NODE_ENV=${NODE_ENV}
+FROM sonarsource/sonar-scanner-cli:latest
 WORKDIR /opt/app
 COPY --from=build /opt/node_modules ./node_modules
-ENV PATH /opt/node_modules/.bin:$PATH
 COPY --from=build /opt/app ./
-EXPOSE 1337
-CMD ["yarn", "start"]
+ARG SONAR_HOST_URL
+ARG SONAR_TOKEN
+ARG CI_COMMIT_TAG
+ARG CI_COMMIT_SHORT_SHA
+ARG CI_PROJECT_NAME
+RUN sonar-scanner -Dsonar.projectKey=develop -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.login=$SONAR_TOKEN -Dsonar.sources=. -Dsonar.projectName=$CI_PROJECT_NAME -Dsonar.projectVersion=${CI_COMMIT_TAG}_${CI_COMMIT_SHORT_SHA}
+
+
