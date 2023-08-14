@@ -15,11 +15,13 @@ FROM sonarsource/sonar-scanner-cli:latest
 WORKDIR /opt/app
 COPY --from=build /opt/node_modules ./node_modules
 COPY --from=build /opt/app ./
+RUN ls 
+RUN pwd
 ARG SONAR_HOST_URL
 ARG SONAR_TOKEN
 ARG CI_COMMIT_TAG
 ARG CI_COMMIT_SHORT_SHA
 ARG CI_PROJECT_NAME
-RUN sonar-scanner -Dsonar.projectKey=develop -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.login=$SONAR_TOKEN -Dsonar.sources=. -Dsonar.projectName=$CI_PROJECT_NAME -Dsonar.projectVersion=${CI_COMMIT_TAG}_${CI_COMMIT_SHORT_SHA}
+RUN sonar-scanner -Dsonar.projectKey=master-cms -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.login=$SONAR_TOKEN -Dsonar.sources=. -Dsonar.projectName=$CI_PROJECT_NAME -Dsonar.projectVersion=${CI_COMMIT_TAG}_${CI_COMMIT_SHORT_SHA}
 
 
