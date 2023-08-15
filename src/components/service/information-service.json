@@ -1,38 +1,37 @@
 {
   "collectionName": "components_service_information_services",
   "info": {
-    "displayName": "Information Service"
+    "displayName": "Information Service",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "info_img": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "info_sub_img": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "advantage": {
       "displayName": "Advantage",
       "type": "component",
       "repeatable": true,
-      "component": "common.advantage"
+      "component": "common.advantage",
+      "required": true
     }
   }
 }

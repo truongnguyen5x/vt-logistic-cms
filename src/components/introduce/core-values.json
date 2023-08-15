@@ -1,33 +1,35 @@
 {
   "collectionName": "components_introduce_core_values",
   "info": {
-    "displayName": "Core Values"
+    "displayName": "Core Values",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
+    "images": {
       "type": "media",
-      "multiple": false
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "center_customer_title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "center_customer_content": {
       "type": "text"
     },
     "kindness_title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "kindness_content": {
       "type": "component",
       "repeatable": true,
-      "component": "common.advantage"
+      "component": "common.advantage",
+      "required": true
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "introduce",
     "pluralName": "introduces",
-    "displayName": "Introduce"
+    "displayName": "Introduce",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,14 +17,15 @@
   },
   "attributes": {
     "banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -80,6 +82,16 @@
         }
       },
       "component": "common.group-image-content"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
     }
   }
 }

@@ -7,34 +7,37 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "icon": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "role": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "email": {
-      "type": "email"
+      "type": "email",
+      "required": true
     },
     "hotline": {
       "type": "string",
-      "regex": "^[0-9]*$"
+      "regex": "^[0-9]*$",
+      "required": true
     },
     "formatted_hotline": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

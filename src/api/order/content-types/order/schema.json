@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullname": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "phone_number": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "email": {
+      "pluginOptions": {},
+      "type": "email"
+    },
+    "service": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "from": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "to": {
+      "pluginOptions": {},
+      "type": "string"
+    },
+    "note": {
+      "pluginOptions": {},
+      "type": "text"
+    },
+    "service_type": {
+      "pluginOptions": {},
+      "type": "enumeration",
+      "enum": [
+        "trucking_domestic",
+        "trucking_international",
+        "rail_transport",
+        "sea_transport",
+        "lcl_sea_transport",
+        "fcl_sea_transport",
+        "bulk_sea_transport",
+        "air_transport_domestic",
+        "air_transport_international"
+      ],
+      "default": "trucking_domestic"
+    },
+    "weight": {
+      "pluginOptions": {},
+      "type": "decimal"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_common_price_tables",
+  "info": {
+    "displayName": "Price table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
