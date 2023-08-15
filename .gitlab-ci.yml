@@ -1,6 +1,6 @@
 variables:
   deployment: "log-be"
-  image: "${CI_REGISTRY}/wms/log-be:${CI_COMMIT_SHORT_SHA}"
+  image: "${CI_REGISTRY}/wms/log-be:${CI_COMMIT_TAG}_${CI_COMMIT_SHORT_SHA}"
   namespace: "dev-log"
 
 image: docker
