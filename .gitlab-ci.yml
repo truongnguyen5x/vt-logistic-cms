@@ -1,7 +1,7 @@
 variables:
-  deployment: "${CI_PROJECT_NAME}"
+  deployment: "log-be"
   image: "${CI_REGISTRY}/wms/log-be:${CI_COMMIT_SHORT_SHA}"
-  namespace: "wms"
+  namespace: "dev-log"
 
 image: docker
 services:
