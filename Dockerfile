@@ -35,7 +35,7 @@
 FROM node:16 as build
 # Installing libvips-dev for sharp Compatibility
 # RUN apk update && apk add --no-cache build-base gcc autoconf automake zlib-dev libpng-dev vips-dev > /dev/null 2>&1
-RUN apt-get update && apt-get install -y --no-install-recommends build-base gcc autoconf automake zlib-dev libpng-dev vips-dev > /dev/null 2>&1
+# RUN apt-get update && apt-get install -y --no-install-recommends build-base gcc autoconf automake zlib-dev libpng-dev vips-dev > /dev/null 2>&1
 ARG NODE_ENV=production
 ENV NODE_ENV=${NODE_ENV}
 WORKDIR /opt/
