@@ -48,7 +48,7 @@ RUN yarn build
 
 FROM node:16
 #RUN apk add --no-cache vips-dev
-RUN apt-get install --no-install-recommends libvips-dev
+RUN apt-get install --no-install-recommends libvips
 ARG NODE_ENV=production
 ENV NODE_ENV=${NODE_ENV}
 WORKDIR /opt/app
