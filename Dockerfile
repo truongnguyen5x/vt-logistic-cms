@@ -32,9 +32,10 @@
 #EXPOSE 9100
 #CMD ["npm", "run", "start"]
 
-FROM node:16-alpine as build
+FROM node:16 as build
 # Installing libvips-dev for sharp Compatibility
-RUN apk update && apk add --no-cache build-base gcc autoconf automake zlib-dev libpng-dev vips-dev > /dev/null 2>&1
+# RUN apk update && apk add --no-cache build-base gcc autoconf automake zlib-dev libpng-dev vips-dev > /dev/null 2>&1
+RUN apt-get update && apt-get install -y --no-install-recommends build-base gcc autoconf automake zlib-dev libpng-dev vips-dev > /dev/null 2>&1
 ARG NODE_ENV=production
 ENV NODE_ENV=${NODE_ENV}
 WORKDIR /opt/
@@ -45,8 +46,9 @@ WORKDIR /opt/app
 COPY ./ .
 RUN yarn build
 
-FROM node:16-alpine
-RUN apk add --no-cache vips-dev
+FROM node:16
+#RUN apk add --no-cache vips-dev
+RUN apt install --no-install-recommends libvips-dev
 ARG NODE_ENV=production
 ENV NODE_ENV=${NODE_ENV}
 WORKDIR /opt/app
