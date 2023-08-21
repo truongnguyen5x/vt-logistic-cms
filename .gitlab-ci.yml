@@ -9,7 +9,7 @@ services:
 stages:   
   - buildandpush
   - Sonar
-  - deployk8s
+  # - deployk8s
 
 
 buildandpush:  
@@ -43,18 +43,18 @@ Sonar:
     - tags
 
 
-deployk8s:
-  stage: deployk8s
-  variables:
-      GIT_STRATEGY: none
-  allow_failure: true
-  after_script:
-    - deployk8s=${CI_JOB_STATUS}
-    - echo "$deployk8s" > /home/gitlab-runner/wms/telegram/${CI_PROJECT_NAME}/deployk8s.txt
-  tags:
-    - k8s-master-shell
-  script:
-  - kubectl set image deployment/"$deployment" "$deployment"="$image" -n "$namespace"
-  only:
-    # - staging
-    - tags 
+# deployk8s:
+#   stage: deployk8s
+#   variables:
+#       GIT_STRATEGY: none
+#   allow_failure: true
+#   after_script:
+#     - deployk8s=${CI_JOB_STATUS}
+#     - echo "$deployk8s" > /home/gitlab-runner/wms/telegram/${CI_PROJECT_NAME}/deployk8s.txt
+#   tags:
+#     - k8s-master-shell
+#   script:
+#   - kubectl set image deployment/"$deployment" "$deployment"="$image" -n "$namespace"
+#   only:
+#     # - staging
+#     - tags 
