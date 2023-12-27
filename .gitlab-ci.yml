@@ -6,19 +6,18 @@ variables:
 image: docker
 services:
   - docker
-stages:   
+stages:
   - buildandpush
   - Sonar
-  # - deployk8s
+  - deployk8s
 
-
-buildandpush:  
+buildandpush:
   stage: buildandpush
   before_script:
-  - docker login -u ${CI_REGISTRY_USER} -p ${CI_REGISTRY_PASSWORD} $CI_REGISTRY
+    - docker login -u ${CI_REGISTRY_USER} -p ${CI_REGISTRY_PASSWORD} $CI_REGISTRY
   allow_failure: false
   variables:
-        GIT_STRATEGY: clone
+    GIT_STRATEGY: clone
   tags:
     - dev-wms-shell
   script:
@@ -27,34 +26,32 @@ buildandpush:
   only:
     # - staging
     - tags
-  
 
 Sonar:
   stage: Sonar
   variables:
-      GIT_STRATEGY: none
+    GIT_STRATEGY: none
   allow_failure: true
   tags:
     - dev-wms-shell
   script:
-  - DOCKER_BUILDKIT=1 docker run -u 1003:1003 --rm --network host -v `pwd`:/app --workdir="/app"  sonarsource/sonar-scanner-cli sonar-scanner -X $SONAR_SCANNER_OPTS -Dsonar.host.url="$SONAR_HOST_URL" -Dsonar.login="$SONAR_TOKEN"  -Dsonar.sources="./src" -Dsonar.projectKey="${CI_PROJECT_NAME}" -Dsonar.projectName="$CI_PROJECT_NAME" -Dsonar.projectVersion="${CI_COMMIT_TAG}_${CI_COMMIT_SHORT_SHA}";
+    - DOCKER_BUILDKIT=1 docker run -u 1003:1003 --rm --network host -v `pwd`:/app --workdir="/app"  sonarsource/sonar-scanner-cli sonar-scanner -X $SONAR_SCANNER_OPTS -Dsonar.host.url="$SONAR_HOST_URL" -Dsonar.login="$SONAR_TOKEN"  -Dsonar.sources="./src" -Dsonar.projectKey="${CI_PROJECT_NAME}" -Dsonar.projectName="$CI_PROJECT_NAME" -Dsonar.projectVersion="${CI_COMMIT_TAG}_${CI_COMMIT_SHORT_SHA}";
   only:
     # - staging
     - tags
 
-
-# deployk8s:
-#   stage: deployk8s
-#   variables:
-#       GIT_STRATEGY: none
-#   allow_failure: true
-#   after_script:
-#     - deployk8s=${CI_JOB_STATUS}
-#     - echo "$deployk8s" > /home/gitlab-runner/wms/telegram/${CI_PROJECT_NAME}/deployk8s.txt
-#   tags:
-#     - k8s-master-shell
-#   script:
-#   - kubectl set image deployment/"$deployment" "$deployment"="$image" -n "$namespace"
-#   only:
-#     # - staging
-#     - tags 
+deployk8s:
+  stage: deployk8s
+  variables:
+    GIT_STRATEGY: none
+  allow_failure: true
+  after_script:
+    - deployk8s=${CI_JOB_STATUS}
+    - echo "$deployk8s" > /home/gitlab-runner/wms/telegram/${CI_PROJECT_NAME}/deployk8s.txt
+  tags:
+    - k8s-master-shell
+  script:
+    - kubectl set image deployment/"$deployment" "$deployment"="$image" -n "$namespace"
+  only:
+    # - staging
+    - tags
