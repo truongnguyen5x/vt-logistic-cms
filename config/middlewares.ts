@@ -10,6 +10,8 @@ export default [
             "'self'",
             "data:",
             "https:",
+            "http:",
+            "blob:",
             "cdn.jsdelivr.net",
             "strapi.io",
           ],

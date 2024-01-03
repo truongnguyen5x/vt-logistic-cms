@@ -1,21 +1,32 @@
 {
   "collectionName": "components_home_banners",
   "info": {
-    "displayName": "Banner"
+    "displayName": "Banner",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "url": {
       "type": "string",
       "required": false
+    },
+    "image_mobile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
